@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Profile</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" 
+            rel="stylesheet" 
+            integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" 
+            crossorigin="anonymous">
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+              integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+              crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+            crossorigin="anonymous"></script>  -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+            <style>
+              .carousel-inner > .item > img,
+              .carousel-inner > .item > a > img {
+                width: 70%;
+                margin: auto;
+              }
+            </style>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">MAHARDIKA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Tentang aku</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Data diri</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pendidikan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Prestasi</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br>
+    <img src="https://a.wattpad.com/useravatar/Monica_Vangelina97.256.81104.jpg" class="rounded mx-auto d-block" style="height: 200px;"/>
+    <br>
+    <div class="card col-10 mx-auto">
+      <div class="card-body">
+        <h5 class="card-title">TENTANG AKU</h5>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam velit corrupti eius! Distinctio soluta voluptatibus obcaecati hic quos, enim sunt! Magnam,
+        voluptatibus! Repellendus quisquam ipsum obcaecati ullam, tempore omnis consectetur.
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <!-- table -->
+      <div class="card col-6" id="tabel">
+        <h5 class="card-title">DATA DIRI</h5>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Data</th>
+              <th scope="col">Nilai</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Nama Lengkap</td>
+              <td>Cecep Gorbacep</td>
+            </tr>
+            <tr>
+              <td>Tanggal lahir</td>
+              <td>31 Februari 3021</td>
+            </tr>
+            <tr>
+              <td>Asal</td>
+              <td>Bandung, Jawa Barat</td>
+            </tr>
+            <tr>
+              <td>Alamat</td>
+              <td>Bojong Cihcir, RT 05 / RW 03</td>
+            </tr>
+            <tr>
+              <td>Email</td>
+              <td>gmail@cecep.com</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- list group -->
+      <div class="card col-6 list">
+        <h5 class="card-title">PENDIDIKAN</h5>
+        <ul class="list-group">
+          <li class="list-group-item">SD Negeri 1001</li>
+          <li class="list-group-item">SMP Yuk Belajar</li>
+          <li class="list-group-item">SMA Harapan Bunda</li>
+          <li class="list-group-item">ITB, jurusan Sastra Mesin</li>
+        </ul>
+      </div>
+    </div>
+
+    <p id="kalimat" onclick="myFunction()">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui reprehenderit ea eum unde nihil voluptates magni eligendi, quae, 
+      numquam culpa aliquam, natus harum aliquid corrupti nam molestias ipsa sapiente magnam.
+    </p>
+
+    <script src="index.js"></script>
+  </body>
+</html>
